@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +7,9 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
 
     <header class="header">
@@ -22,12 +18,12 @@
         <nav class="navbar">
             <img src="./images/Logo.png" alt="Имя компании" class="logo-img">
             <ul class="nav-links">
-                <li><a href="#about-section" class="nav-link">О нас</a></li>
-                <li><a href="#price-section" class="nav-link">Услуги и цены</a></li>
-                <li><a href="#masters-section" class="nav-link">Мастера</a></li>
-                <li><a href="#footer" class="nav-link">Контакты</a></li>
+                <li><a href="#about-section" class="nav-link" >О нас</a></li>
+                <li><a href="#price-section" class="nav-link" >Услуги и цены</a></li>
+                <li><a href="#masters-section" class="nav-link" >Мастера</a></li>
+                <li><a href="#footer" class="nav-link" >Контакты</a></li>
             </ul>
-            <div>
+            <div class="btn-box">
                 <a href="tel:+380441111111" class="phone-link">+38 044 111 11 11</a>
                 <a href="#footer" class="primary-btn">Онлайн запись</a>
             </div>
@@ -46,21 +42,21 @@
             <div class="slide">
                 <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
                 <h1 class="hero-title">BarberShop</h1>
-                <p class="hero-description">Мы эксперты в модных мужских стрижках.
+                <p class="hero-description">Мы эксперты в модных мужских стрижках. 
+                    Работаем быстро, осторожно и со вкусом.</p>
+            </div>
+            <!-- <div class="slide">
+                <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
+                <h1 class="hero-title">BarberShop</h1>
+                <p class="hero-description">Мы эксперты в модных мужских стрижках. 
                     Работаем быстро, осторожно и со вкусом.</p>
             </div>
             <div class="slide">
                 <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
                 <h1 class="hero-title">BarberShop</h1>
-                <p class="hero-description">Мы эксперты в модных мужских стрижках.
+                <p class="hero-description">Мы эксперты в модных мужских стрижках. 
                     Работаем быстро, осторожно и со вкусом.</p>
-            </div>
-            <div class="slide">
-                <span lang="en" class="suptitle-secondary">A hair salon for men in Kyiv</span>
-                <h1 class="hero-title">BarberShop</h1>
-                <p class="hero-description">Мы эксперты в модных мужских стрижках.
-                    Работаем быстро, осторожно и со вкусом.</p>
-            </div>
+            </div> -->
         </div>
 
     </header>
@@ -68,23 +64,21 @@
 
     <!-- Main content -->
     <main class="layout">
-
+        
         <!-- About Us -->
         <section class="section-box" id="about-section">
             <div class="about_image-box">
-                <img src="./images/img 1.jpg" alt="Намазываем пеной">
-                <img src="./images/img 2.jpg" alt="А потом вот так опасной бритвой бреем">
+                <img src="./images/about-1.jpg" alt="Намазываем пеной">
+                <img src="./images/about-2.jpg" alt="А потом вот так опасной бритвой бреем">
             </div>
             <div class="description-container">
                 <span class="suptitle-primary">О нас</span>
                 <h2 class="section-title">Лучший Барбершоп
                     твоего города</h2>
-                <h3 class="section-subtitle">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
-                </h3>
-                <p class="section-description">Мы команда, которая никогда не останавливается на достигнутом
-                    и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
-                    Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+                <h3 class="section-subtitle">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</h3>
+                <p class="section-description">Мы команда, которая никогда не останавливается на достигнутом 
+                    и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
+                    то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
                 <a href="#footer" class="primary-btn darken">Онлайн запись</a>
             </div>
         </section>
@@ -94,7 +88,7 @@
             <span class="suptitle-secondary">Проведи время в компании лучших мастеров</span>
             <h2 class="section-title lighten">Услуги и цены</h2>
             <div class="price-box">
-                <ul class="plice-list">
+                <ul class="price-list">
                     <li class="price-item">
                         <p>Мужская стрижка</p>
                         <span>от 300 грн</span>
@@ -112,7 +106,7 @@
                         <span>от 200 грн</span>
                     </li>
                 </ul>
-                <ul class="plice-list">
+                <ul class="price-list">
                     <li class="price-item">
                         <p>Cтрижка у стажера</p>
                         <span>от 50 грн</span>
@@ -157,8 +151,7 @@
             <div class="description-container">
                 <span class="suptitle-primary">старая традиционная школа</span>
                 <h2 class="section-title">Почему приходят именно к нам?</h2>
-                <h3 class="section-subtitle">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем
-                    10 раз прочитать. </h3>
+                <h3 class="section-subtitle">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </h3>
             </div>
         </section>
 
@@ -168,28 +161,22 @@
             <h2 class="section-title">Наши мастера</h2>
             <ul class="masters-list">
                 <li class="master-card">
-                    <img src="./images/11.jpg" alt="John Smith photo">
+                    <img src="./images/Masters/img1.jpg" alt="John Smith photo">
                     <p>John Smith</p>
                     <span>Extreme Barber</span>
-                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a></div>
+                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a></div>
                 </li>
                 <li class="master-card">
-                    <img src="./images/22.jpg" alt="Michele Doe photo">
+                    <img src="./images/Masters/img2.jpg" alt="Michele Doe photo">
                     <p>Michele Doe</p>
                     <span>Extreme Barber</span>
-                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a></div>
+                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a></div>
                 </li>
                 <li class="master-card">
-                    <img src="./images/33.jpg" alt="Alan Black photo">
+                    <img src="./images/Masters/img3.jpg" alt="Alan Black photo">
                     <p>Alan Black</p>
                     <span>Extreme Barber</span>
-                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a><a href="" class="master-social-link"></a><a href=""
-                            class="master-social-link"></a></div>
+                    <div class="master-social-box"><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a><a href="" class="master-social-link"></a></div>
                 </li>
             </ul>
         </section>
@@ -198,48 +185,46 @@
         <section class="section-box">
             <span class="suptitle-primary">На латинском языке “барба” означает “борода”</span>
             <div class="image-gallery">
-                <img src="./images/Rectangle 25.jpg" alt="Стрижка машинкой">
-                <img src="./images/Rectangle 26.jpg" alt="Намазывание пеной">
-                <img src="./images/Rectangle 27.jpg" alt="Пропаривание лица">
-                <img src="./images/Rectangle 28.jpg" alt="Стрижка опасной бритвой">
+                <img src="./images/Gallery/image-1.jpg" alt="Стрижка машинкой">
+                <img src="./images/Gallery/image-2.jpg" alt="Намазывание пеной">
+                <img src="./images/Gallery/image-3.jpg" alt="Пропаривание лица">
+                <img src="./images/Gallery/image-4.jpg" alt="Стрижка опасной бритвой">
             </div>
         </section>
 
     </main>
 
-   
-        <!-- Footer -->
-        <footer class="footer" id="footer">
-            <div>
-                <h2 class="section-title lighten">Онлайн-запись</h2>
-                <form action="">
-                    <input type='submit' class="primary-btn" />
-                </form>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div>
+            <h2 class="section-title lighten">Онлайн-запись</h2>
+            <form action="">
+                <input type='submit' class="primary-btn"/>
+            </form>
+        </div> 
+        <div class="footer-contacts">
+            <h2 class="section-title lighten">Контакты</h2>
+            <div class="contacts-box">
+                <adress></adress>
+                <a href="tel:"></a>
+                <a href="mailto:"></a>
             </div>
-            <div>
-                <h2 class="section-title lighten">Контакты</h2>
-                <div class="contacts-box">
-                    <adress></adress>
-                    <a href="tel:"></a>
-                    <a href="mailto:"></a>
-                </div>
-        
-                <div class="schedule-box">
-                    <span class="suptitle-secondary">Время работы</span>
-                    <p>Ежедневно с 9:00 до 22:00</p>
-                </div>
-        
+
+            <div class="schedule-box">
+                <span class="suptitle-secondary">Время работы</span>
+                <p>Ежедневно с 9:00 до 22:00</p>
             </div>
-        </footer>
-        
-        <div class="copyright">
-            <p class="copy-text">&copy; Copyright <span>2020</span></p>
-            <div class="social-box">
-                <a href="#" class="social-link">Instragram</a>
-                <a href="#" class="social-link">YouTube</a>
-            </div>
+
         </div>
+    </footer>
+    
+    <div class="copyright">
+        <p class="copy-text">&copy; Copyright <span>2020</span></p>
+        <div class="social-box">
+            <a href="#" class="social-link">Instragram</a>
+            <a href="#" class="social-link">YouTube</a>
+        </div>
+    </div>
 
 </body>
-
 </html>
